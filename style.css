@@ -1,0 +1,51 @@
+header{
+	text-align: center;
+   
+}
+
+ul{list-style:none;}
+
+nav li{
+	display: inline-block;
+   margin:0 100px 0 100px;
+}
+
+#mainImg{
+    max-width: 100%;
+}
+
+#portfolioImg{
+    max-width: 50%;
+    border-radius: 5px;
+   border: solid 1px #000;
+   /* float: left; */
+}
+#portfolioImg2{
+    max-width: 80%;
+    border-radius: 5px;
+   border: solid 1px #000;
+   /* float: left; */
+}
+.center{
+    text-align: center;
+}
+
+#label{
+background-color: aquamarine;
+width: 8em;
+font-size:15px;
+padding: 3px 10px;
+text-align: center;
+display: inline-block;
+margin: 20px;
+}
+
+#menu{
+    text-decoration: none;
+}
+
+#bodymenu{
+  display: flex;
+  justify-content: center;
+
+}
