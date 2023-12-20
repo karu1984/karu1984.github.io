@@ -37,7 +37,7 @@
     <li id="label"> <a id="menu" href="portfolioshow.html">レスポンシブ対応</a></li>
 </ul>
 
-
+<?php include "test.html" ?>
 
 
     <div class="center">
