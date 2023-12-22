@@ -15,7 +15,7 @@ nav li{
 }
 
 #portfolioImg{
-    max-width: 80%;
+    max-width: 100%;
     border-radius: 5px;
    border: solid 1px #000;
    /* float: left; */
