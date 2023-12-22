@@ -26,6 +26,12 @@ nav li{
    border: solid 1px #000;
    /* float: left; */
 }
+#portfolioImg3{
+    max-width: 20%;
+    border-radius: 5px;
+   border: solid 1px #000;
+   /* float: left; */
+}
 .center{
     text-align: center;
 }
