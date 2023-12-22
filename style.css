@@ -15,13 +15,13 @@ nav li{
 }
 
 #portfolioImg{
-    max-width: 50%;
+    max-width: 80%;
     border-radius: 5px;
    border: solid 1px #000;
    /* float: left; */
 }
 #portfolioImg2{
-    max-width: 80%;
+    max-width: 50%;
     border-radius: 5px;
    border: solid 1px #000;
    /* float: left; */

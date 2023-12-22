@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カルロスのポートフォリオ</title>
+
+    <link href="../style.css" rel="stylesheet" media="all" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Carlos Portfolio</h1>
+        <nav class="gnav">
+            <ul>
+                <li><a href="../index.html">TOP</a></li>
+                <li><a href="../introduction.html">自己紹介</a></li>
+                <li><a href="gaiyou.html">制作物（Laravelでの掲示板サイト）</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <ul id="bodymenu">
+        <li id="label"> <a id="menu" href="gaiyou.html">概要</a></li>
+        <li id="label"> <a id="menu" href="portfolioImage.html">制作物画像</a></li>
+        <li id="label"> <a id="menu" href="portfoliojyoryu.html">設計関連</a></li>
+        <li id="label"> <a id="menu" href="portfoliojisso.html">実装関連</a></li>
+        <li id="label"> <a id="menu" href="portfoliotest.html">テスト関連</a></li>
+    </ul>
+    
+<?php include "test.html" ?>
+
+
+    <div class="center">
+        <h2>設計関連</h2>
+        <hr>
+        <p>設計では機能設計、モックアップ作成、DBテーブル設計を行いました<br>
+        経験の乏しさが要因で実装中に大幅に変更した点も多いです<br>
+        機能を多数追加（レスポンシブ対応、ユーザーフォローなど）した点や<br>
+        技術が追いつかずテーブルを分けていたものをユーザテーブルに<br><br><br>                  
+              
+
+        </p>
+
+
+        <h2>機能設計イメージ</h2>
+        <hr>
+       エクセルで機能設計を作成しました。<br>
+       機能設計を元にモックアップ作成しております。<br>
+       データベースについてもエクセルで設計しております。<br>
+       <br>
+        
+        <ul id="flex">
+            <li><img id="portfolioImg" src="../portfolio_image/kinou.png" alt=""></li>
+        </ul>
+        <br><br>
+        モックアップはVSCODEの図画機能を用いて作成しています。<br>
+        <ul id="flex">
+            <li><img id="portfolioImg" src="../portfolio_image/mockup.png" alt=""></li>
+        </ul>
+        <br><br>
+        データベーステーブル設計です<br>
+        Laravelでの各データベースのリレーション構築に苦労しました。<br>
+
+        <ul id="flex">
+            <li><img id="portfolioImg" src="../portfolio_image/DBtable.png" alt=""></li>
+        </ul>
+        <br><br>
+
+        
+    </div>
+    <footer>
+        <address>
+
+        </address>
+    </footer>
+</body>
+
+</html>

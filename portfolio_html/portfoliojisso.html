@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カルロスのポートフォリオ</title>
+
+    <link href="../style.css" rel="stylesheet" media="all" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Carlos Portfolio</h1>
+        <nav class="gnav">
+            <ul>
+                <li><a href="../index.html">TOP</a></li>
+                <li><a href="../introduction.html">自己紹介</a></li>
+                <li><a href="gaiyou.html">制作物（Laravelでの掲示板サイト）</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+<ul id="bodymenu">
+    <li id="label"> <a id="menu" href="gaiyou.html">概要</a></li>
+    <li id="label"> <a id="menu" href="portfolioImage.html">制作物画像</a></li>
+    <li id="label"> <a id="menu" href="portfoliojyoryu.html">設計関連</a></li>
+    <li id="label"> <a id="menu" href="portfoliojisso.html">実装関連</a></li>
+    <li id="label"> <a id="menu" href="portfoliotest.html">テスト関連</a></li>
+</ul>
+
+<?php include "test.html" ?>
+
+
+    <div class="center">
+        <h2>実装関連</h2>
+        <hr>
+        <p>Laravelの各ページを載せると膨大な量になりますので<br>
+        抜粋になります。"半年後に自分が見て内容がわかるか"を意識して作っております。<br>
+        コメントをマメに入れる、ヘッダーなどパーツ化する、インデントを意識しました。<br>
+        githubで公開しているソースコードは<a href="https://github.com/karu1984/testkeijiban">こちら</a>になります。<br><br>                  
+              
+
+        </p>
+
+
+        <h2>実装イメージ</h2>
+        <hr>
+       VSCODEを使用ています。<br>
+       <br>
+       Laravelのコントローラーの一つです。このコントローラーでは投稿関係を制御しています。画像は表示と投稿作成部分です。<br>
+        <ul id="flex">
+            <li><img id="portfolioImg" src="../portfolio_image/image13.png" alt=""></li>
+        </ul>
+        <br><br>
+        Laravelのモデルの一つです。このモデルでは投稿記事とのデータベースを接続しています。<br>画像は他のデータベースとのリレーション記述部分です。<br>
+        <ul id="flex">
+            <li><img id="portfolioImg" src="../portfolio_image/image14.png" alt=""></li>
+        </ul>
+        <br><br>
+
+        Laravelのビューの一つです。このビューはトップページのものです。<br>
+        パーツ化されたサイドバー、コンテンツ部分、削除の際のアラート表示などが記述した部分です。<br>
+        <ul id="flex">
+            <li><img id="portfolioImg" src="../portfolio_image/image15.png" alt=""></li>
+        </ul>
+        <br><br>
+
+        CSSファイルです。ジェットストリームの背景色をnoneに変更、ヘッダー部分の記述、ラベルパーツの記述部分です。<br>
+        <ul id="flex">
+            <li><img id="portfolioImg" src="../portfolio_image/image16.png" alt=""></li>
+        </ul>
+        <br><br>
+
+     
+
+        
+    </div>
+    <footer>
+        <address>
+
+        </address>
+    </footer>
+</body>
+
+</html>
